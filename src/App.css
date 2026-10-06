@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #70c9df;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 51px;
+}
+
+/* Green counter box */
+.counter-box {
+  width: 500px;
+  height: 500px;
+
+  background-color: #78edcf;
+
+  border-radius: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-box span {
+  color: #000;
+  font-size: 92px;
+  font-weight: 400;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 38px;
+}
+
+.buttons button {
+  width: 200px;
+  height: 53px;
+
+  border: none;
+  border-radius: 12px;
+
+  background-color: #000;
+  color: white;
+
+  font-size: 32px;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #222;
+}
+
+.buttons button:active {
+  transform: scale(0.98);
+}
+
+/* Reset button */
+.buttons button:last-child {
+  font-size: 28px;
+}
